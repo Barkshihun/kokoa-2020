@@ -1,0 +1,16 @@
+.icon-law {
+    display: flex;
+    justify-content: space-between;
+}
+.icon-law__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icon-law__icon i {
+    font-size: 35px;
+    color: var(--LightKokoa);
+}
+.icon-law__icon span {
+    margin-top: 15px;
+}

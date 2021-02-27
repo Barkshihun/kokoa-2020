@@ -1,0 +1,8 @@
+:root{
+    --kokoa: #6d3513;
+    --LightKokoa: #be9277;
+    --backgroundColor: #fffaf3;
+    --horizontal-space: 20px;
+    --main-border: 2.5px solid rgba(0, 0, 0, 0.2);
+    --gray: rgba(0, 0 , 0 , 0.5)
+}

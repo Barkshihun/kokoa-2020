@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웰컴 투 코코아톡!</title>
+    <script src="https://kit.fontawesome.com/fa1a5b2f48.js" crossorigin="anonymous">
+    </script>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>service?</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>11:99</span>
+        </div>
+        <div class="status-bar__column">
+            <span>???%</span>
+            <i class="fas fa-battery-full fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">코코아톡에 오신 것을 환영해!</h1>
+        <p class="welcome-header__text">만약 님께서 코코아 계정이 있다면<br/>로그인 해라!너의 이메일 또는 폰넘버로♥</p>
+    </header>
+
+    <form action="friends.html" method="GET" id="login-form">
+        <input name="username" type="text" placeholder="이메일 또는 폰넘버">
+        <input name="password" type="password" placeholder="패스워드">
+        <input type="submit" value="Log in">
+        <a href="#">찾아라!코코아 계정 또는 패스워드</a>
+    </form>
+
+    <div id="no-mobile">
+        <span>I don't like big screen :(</span>
+    </div>
+
+</body>
+</html>

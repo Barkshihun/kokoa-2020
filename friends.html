@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>코코아톡 - 친구</title>
+    <script src="https://kit.fontawesome.com/fa1a5b2f48.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>service?</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>11:99</span>
+        </div>
+        <div class="status-bar__column">
+            <span>???%</span>
+            <i class="fas fa-battery-full fa-2x"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+    
+    <header class="screen-header">
+        <h1 class="screen-header__title">Friends</h1>
+        <div class="screen-header__icons">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-music fa-lg"></i></span>
+            <span>
+                <i class="fas fa-cog fa-lg"></i>
+            </span>
+        </div>
+    </header>
+
+    <a id="friends-display-link">
+        <i class="fas fa-info-circle"></i>
+        Friends' names display
+        <i class="fas fa-chevron-right fa-xs"></i>
+    </a>
+
+    <main class="main-screen">
+        <div class="user-component user-component--friends">
+            <div class="usr-component__column">
+                <img
+                  src="https://avatars.githubusercontent.com/u/69954770?s=460&u=2f68d9c3a7720a654942bf84ae7af43ec7b0facc&v=4"
+                  class="user-component__avatar user-component__avatar--xl"/>
+                <div class="user-component__text">
+                    <h4 class="user-component__title">코코아걸</h4>
+                    <!-- <h6 class="user-component__subtitle">Do you want to me?</h6> -->
+                </div>
+            </div>
+            <div class="usr-component__column"></div>
+        </div>
+        <div class="friends-screen__chanel">
+            <div>
+                <div class="friends-screen__chanel-bar">
+                    <span>채널</span>   
+                    <i class="fas fa-chevron-up fa-xs"></i>
+                </div>
+                <div class="user-component">
+                    <div class="usr-component__column">
+                        <img
+                          src="https://avatars.githubusercontent.com/u/69954770?s=460&u=2f68d9c3a7720a654942bf84ae7af43ec7b0facc&v=4"
+                          class="user-component__avatar user-component__avatar--sm"/>
+                        <div class="user-component__text">
+                            <h4 class="user-component__title user-component__title--not-bold">Channel</h4>
+                        </div>
+                    </div>
+                    <div class="usr-component__column">
+                        <div>
+                            <span>2</span>
+                            <i class="fas fa-chevron-right fa-xs"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html">
+                    <i class="fas fa-user fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="chats.html">
+                    <span class="nav__notification badge badge--long">1972</span>
+                    <i class="far fa-comment fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="find.html">
+                    <i class="fas fa-search fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="more.html">
+                    <div class="badge--small"></div>
+                    <i class="fas fa-ellipsis-h fa-2x"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="splash-screen">
+        <i class="fas fa-comment"></i>
+    </div>
+
+    <div id="no-mobile">
+        <span>I don't like big screen :(</span>
+    </div>
+    
+</body>
+</html>
