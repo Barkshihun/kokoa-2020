@@ -1,92 +1,187 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <link rel="stylesheet" href="css/style.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>코코아톡 - 대화</title>
-    <script src="https://kit.fontawesome.com/fa1a5b2f48.js" crossorigin="anonymous">
-    </script>
-</head>
-<body>
+    <script
+      src="https://kit.fontawesome.com/fa1a5b2f48.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <div class="status-bar">
-        <div class="status-bar__column">
-            <span>service</span>
-            <i class="fas fa-wifi"></i>
-        </div>
-        <div class="status-bar__column">
-            <span>12:00</span>
-        </div>
-        <div class="status-bar__column">
-            <span>100%</span>
-            <i class="fas fa-battery-full fa-2x"></i>
-            <i class="fas fa-bolt"></i>
-        </div>
+      <div class="status-bar__column">
+        <span>service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>12:00</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-2x"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
     </div>
-    
+
     <header class="screen-header">
-        <h1 class="screen-header__title">대화</h1>
-        <div class="screen-header__icons">
-            <span><i class="fas fa-search fa-lg"></i></span>
-            <span><i class="far fa-comment-dots fa-lg"></i></span>
-            <span><i class="fas fa-music fa-lg"></i></span>
-            <span>
-                <i class="fas fa-cog fa-lg"></i>
-            </span>
-        </div>
+      <h1 class="screen-header__title">대화</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="far fa-comment-dots fa-lg"></i></span>
+        <span><i class="fas fa-music fa-lg"></i></span>
+        <span>
+          <i class="fas fa-cog fa-lg"></i>
+        </span>
+      </div>
     </header>
-    
+
     <main class="main-screen">
+      <div class="chat-block">
         <a href="chat.html">
-            <div class="user-component main-screen--head">
-                <div class="usr-component__column">
-                    <img
-                    src="https://avatars.githubusercontent.com/u/69954770?s=460&u=2f68d9c3a7720a654942bf84ae7af43ec7b0facc&v=4"
-                    class="user-component__avatar user-component__avatar"/>
-                    <div class="user-component__text">
-                        <h4 class="user-component__title">코코아맨</h4>
-                        <h6 class="user-component__subtitle">나는야 코코아맨</h6>
-                    </div>
-                </div>
-                <div class="usr-component__column">
-                    <span class="usr-component__time">4:44</span>
-                    <div class="badge">1</div>
-                </div>
+          <div class="user-component">
+            <div class="usr-component__column">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvrKdd8uPRr8Pe2zPh1xMycfeXHGGibxctfaY_ow_yOYKh3y8Vu-qydnnTkXtiY1HNmo&usqp=CAUk"
+                class="user-component__avatar user-component__avatar"
+              />
+              <div class="user-component__text">
+                <h4 class="user-component__title">코코아</h4>
+                <h6 class="user-component__subtitle">
+                  나랑 같이 코코아 마실래?
+                </h6>
+              </div>
             </div>
+            <div class="usr-component__column">
+              <span class="usr-component__time">4:44</span>
+              <div class="badge">1</div>
+            </div>
+          </div>
         </a>
+      </div>
+      <div class="chat-block">
+        <div class="user-component">
+          <div class="usr-component__column">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmYmJXtOSxSou5aggGYmdBvKnPwWttGABqhQ&usqp=CAU"
+              class="user-component__avatar user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">민트초코</h4>
+              <h6 class="user-component__subtitle">민트초코 좋아해?</h6>
+            </div>
+          </div>
+          <div class="usr-component__column">
+            <span class="usr-component__time">3:00</span>
+          </div>
+        </div>
+      </div>
+      <div class="chat-block">
+        <div class="user-component">
+          <div class="usr-component__column">
+            <img
+              src="https://cdn.ppomppu.co.kr/zboard/data3/2018/1214/20181214235739_qtixsqck.jpg"
+              class="user-component__avatar user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">파인애플 피자</h4>
+              <h6 class="user-component__subtitle">
+                피자에는 파인애플을 올려야 해
+              </h6>
+            </div>
+          </div>
+          <div class="usr-component__column">
+            <span class="usr-component__time">2:37</span>
+          </div>
+        </div>
+      </div>
+      <div class="chat-block">
+        <div class="user-component">
+          <div class="usr-component__column">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI6z-S95bSCtCMGiYckvwNHWCwfVIf39SfjU5_mgbuIMwnsdBI9e0hVAVCnQctmBiKIu8&usqp=CAU"
+              class="user-component__avatar user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">탕수육</h4>
+              <h6 class="user-component__subtitle">탕수육은 부먹이 진리</h6>
+            </div>
+          </div>
+          <div class="usr-component__column">
+            <span class="usr-component__time">1:58</span>
+          </div>
+        </div>
+      </div>
+      <div class="chat-block">
+        <div class="user-component">
+          <div class="usr-component__column">
+            <img
+              src="https://mblogthumb-phinf.pstatic.net/MjAxNzA4MjVfMTgz/MDAxNTAzNjcxMTQxMDcz.sFVOME8Gc-DOdD88WBzCvCLgSoOyY1ldPNNUUJJCtv8g.6Lo03sYmd0dqFzuKLImK6JmcCLxMBLDY9V0uhdUQ0RMg.JPEG.businessinsight/messageImage_1503644105321.jpg?type=w800"
+              class="user-component__avatar user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">신호등 치킨</h4>
+              <h6 class="user-component__subtitle">
+                치킨도 알록달록 해질 수 있다!
+              </h6>
+            </div>
+          </div>
+          <div class="usr-component__column">
+            <span class="usr-component__time">1:20</span>
+          </div>
+        </div>
+      </div>
+      <div class="chat-block">
+        <div class="user-component">
+          <div class="usr-component__column">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/ko/4/4a/Green_Onion_Chex_Package.jpg"
+              class="user-component__avatar user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">파맛 책스</h4>
+              <h6 class="user-component__subtitle">민주주의가 이겼다!</h6>
+            </div>
+          </div>
+          <div class="usr-component__column">
+            <span class="usr-component__time">1:01</span>
+          </div>
+        </div>
+      </div>
     </main>
-    
+
     <nav class="nav">
-        <ul class="nav__list">
-            <li class="nav__btn">
-                <a class="nav__link" href="friends.html">
-                    <i class="far fa-user fa-2x"></i>
-                </a>
-            </li>
-            <li class="nav__btn">
-                <a class="nav__link" href="chats.html">
-                    <span class="nav__notification badge badge--long">1972</span>
-                    <i class="fas fa-comment fa-2x"></i>
-                </a>
-            </li>
-            <li class="nav__btn">
-                <a class="nav__link" href="find.html">
-                    <i class="fas fa-search fa-2x"></i>
-                </a>
-            </li>
-            <li class="nav__btn">
-                <a class="nav__link" href="more.html">
-                    <div class="badge--small"></div>
-                    <i class="fas fa-ellipsis-h fa-2x"></i>
-                </a>
-            </li>
-        </ul>
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html">
+            <i class="far fa-user fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">1</span>
+            <i class="fas fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html">
+            <i class="fas fa-search fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <div class="badge--small"></div>
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+          </a>
+        </li>
+      </ul>
     </nav>
 
     <div id="no-mobile">
-        <span>I don't like big screen :(</span>
+      <span>I don't like big screen :(</span>
     </div>
-    
-</body>
+  </body>
 </html>

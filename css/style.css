@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 /* font-family: 'Roboto', sans-serif;
 font-weight: 400; */
 
@@ -22,13 +22,14 @@ font-weight: 400; */
 @import "screens/more.css";
 @import "screens/settings.css";
 @import "screens/chat.css";
+@import "screens/chats.css";
 
-body{
-    font-family: 'Do Hyeon', sans-serif;
+body {
+  font-family: "Do Hyeon", sans-serif;
 }
-.main-screen{
-    padding: 0px var(--horizontal-space);
-    position: absolute;
-    top: 90px;
-    width: calc(100% - 40px)
+.main-screen {
+  padding: 0px var(--horizontal-space);
+  position: absolute;
+  top: 90px;
+  width: calc(100% - 40px);
 }

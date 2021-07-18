@@ -1,29 +1,25 @@
-.badge{
-    width: 23px;
-    height: 23px;
-    border-radius: 50%;
-    background-color: chocolate;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 600;
+.badge {
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  background-color: chocolate;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
 }
-.badge--long{
-    width: 40px;
-    height: 30px;
+.badge--small {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: chocolate;
+  position: relative;
+  left: 36px;
+  top: 4px;
 }
-.badge--small{
-    width: 7px;
-    height: 7px;
-    border-radius: 50%;
-    background-color: chocolate;
-    position: relative;
-    left: 36px;
-    top: 4px;
-}
-.badge--cog{
-    position: absolute;
-    left: 23px;
-    top: -7px;
+.badge--cog {
+  position: absolute;
+  left: 23px;
+  top: -7px;
 }
