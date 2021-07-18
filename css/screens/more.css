@@ -34,3 +34,6 @@
   color: var(--LightKokoa);
   font-size: 32px;
 }
+.more-suggestions__icon-text {
+  text-align: center;
+}
